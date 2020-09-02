@@ -46,3 +46,5 @@ client.on('message', message => {
  console.error('Erro:' + err); // caso algo de errado, o erro ira aparecer no console
 }
 });
+
+client.login(process.env.TOKEN) // ligando bot caso consiga acessar o token
